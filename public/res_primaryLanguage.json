@@ -13,7 +13,7 @@
     {
       "title": "Tic-Tac-Toe",
       "startDate": "2022",
-      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+      "description": "Tic-Tac-Toe was my first solo project that was created through HTML, CSS, and javaScript. Establishing all of the correct logics for a 'draw' or a 'win' and manipulating the displays was tough, but rewarding! ",
       "images": [
         "images/portfolio/ttt/p2.jpg",
         "images/portfolio/ttt/p1.jpg"
@@ -25,19 +25,19 @@
           "name": "HTML 5"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-css3-plain",
+          "name": "CSS"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-javascript-plain",
+          "name": "javaScript"
         }
       ]
     },
     {
       "title": "What the Truck?",
       "startDate": "2022",
-      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+      "description": "This project replicates the classic board game 'Traffic Jam'. The car pieces are rendered to the playing board on the grid and manipulated through drag and drop methods. I really enjoyed the complexity of this DOM manipulation project",
       "images": [
         "images/portfolio/truck/p1.jpg",
         "images/portfolio/truck/p2.jpg"
@@ -45,19 +45,23 @@
       "url": "https://github.com",
       "technologies": [
         {
-          "class": "devicon-react-original",
-          "name": "React"
+          "class": "devicon-html5-plain",
+          "name": "HTML 5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
         },
         {
           "class": "devicon-javascript-plain",
-          "name": "JavaScript"
+          "name": "javaScript"
         }
       ]
     },
     {
       "title": "Fantasy Dragball",
       "startDate": "2022",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      "description": "This was a personal favorite project for me; where I could apply my knowledge to a passion of mine, which is drag. Data about queens were rendered through an API. Data was stored in a local DB where a logged in user can create their own favorites list and draft a team of queens. I'd love to create a high-scale, live-updated version of this!",
       "images": [
         "images/portfolio/dragball/p1.jpg",
         "images/portfolio/dragball/p2.jpg",
@@ -68,23 +72,19 @@
       "url": "https://github.com",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-react-plain",
+          "name": "React"
         }
       ]
     },
     {
       "title": "GhostBustr",
       "startDate": "2022",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      "description": "Working in a team of 3 other classmates, we created a ",
       "images": [
         "images/portfolio/ghostbustr/p1.jpg",
         "images/portfolio/ghostbustr/p2.jpg",

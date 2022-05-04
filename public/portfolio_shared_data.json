@@ -2,7 +2,9 @@
   "basic_info": {
     "name": "Kai Smith",
     "titles": [
-      "Full-Stack Developer"
+      "Software Engineer",
+      "App Developer",
+      "Fitness Enthusiast"
     ],
     "social": [
       {
@@ -26,13 +28,18 @@
         "level": "95"
       },
       {
-        "name": "CSS 3",
+        "name": "CSS",
         "class": "devicon-css3-plain",
         "level": "95"
       },
       {
         "name": "JavaScript",
         "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-plain",
         "level": "70"
       },
       {
