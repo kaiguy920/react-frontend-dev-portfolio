@@ -39,8 +39,8 @@
       "startDate": "2022",
       "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
       "images": [
-        "images/portfolio/photography/p1.jpg",
-        "images/portfolio/photography/p2.jpg"
+        "images/portfolio/truck/p1.jpg",
+        "images/portfolio/truck/p2.jpg"
       ],
       "url": "https://github.com",
       "technologies": [
@@ -59,8 +59,11 @@
       "startDate": "2022",
       "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "images/portfolio/dragball/p1.jpg",
+        "images/portfolio/dragball/p2.jpg",
+        "images/portfolio/dragball/p3.jpg",
+        "images/portfolio/dragball/p4.jpg",
+        "images/portfolio/dragball/p5.jpg"
       ],
       "url": "https://github.com",
       "technologies": [
@@ -83,8 +86,10 @@
       "startDate": "2022",
       "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "images/portfolio/ghostbustr/p1.jpg",
+        "images/portfolio/ghostbustr/p2.jpg",
+        "images/portfolio/ghostbustr/p3.jpg",
+        "images/portfolio/ghostbustr/p4.jpg"
       ],
       "url": "https://github.com",
       "technologies": [
@@ -107,8 +112,8 @@
       "startDate": "2022",
       "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "images/portfolio/catcollector/p1.jpg",
+        "images/portfolio/catcollector/p2.jpg"
       ],
       "url": "https://github.com",
       "technologies": [
@@ -131,8 +136,10 @@
       "startDate": "2022",
       "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "images/portfolio/fit/p1.jpg",
+        "images/portfolio/fit/p2.jpg",
+        "images/portfolio/fit/p3.jpg",
+        "images/portfolio/fit/p4.jpg"
       ],
       "url": "https://github.com",
       "technologies": [
