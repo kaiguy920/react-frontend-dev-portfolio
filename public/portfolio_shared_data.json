@@ -58,8 +58,13 @@
         "level": "95"
       },
       {
-        "name": "MySql",
-        "class": "devicon-mysql-plain",
+        "name": "Express",
+        "class": "devicon-express-original",
+        "level": "90"
+      },
+      {
+        "name": "PostgreSql",
+        "class": "devicon-postgresql-plain",
         "level": "60"
       },
       {

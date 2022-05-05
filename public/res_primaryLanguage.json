@@ -78,6 +78,10 @@
         {
           "class": "devicon-react-plain",
           "name": "React"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
         }
       ]
     },
@@ -94,23 +98,27 @@
       "url": "https://github.com",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-express-original",
+          "name": "Express"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
         }
       ]
     },
     {
       "title": "Cat Collector",
       "startDate": "2022",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      "description": "This is a full CRUD, user authenticated, multiple document app made with Python & Django. Although simple in design, it represents a quick translation of a new language to a high and multi-functioning app!",
       "images": [
         "images/portfolio/catcollector/p1.jpg",
         "images/portfolio/catcollector/p2.jpg"
@@ -118,23 +126,23 @@
       "url": "https://github.com",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-python-plain",
+          "name": "Python"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSql"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-django-plain",
+          "name": "Django"
         }
       ]
     },
     {
       "title": "Check My Fit",
       "startDate": "2022",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      "description": "Check My Fit is a social media site where a user can see an index, or feed, of uploaded outfits, rate them as 'hot' or 'not' & leave a comment, as well as upload their own outfits. Views can be indexed by the user or searched by the # associated with looks. This was a great, fun way to show of many documents and subdocs in a many-to-many relationship.",
       "images": [
         "images/portfolio/fit/p1.jpg",
         "images/portfolio/fit/p2.jpg",
@@ -144,16 +152,20 @@
       "url": "https://github.com",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-express-original",
+          "name": "Express"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
         }
       ]
     }
