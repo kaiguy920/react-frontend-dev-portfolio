@@ -25,7 +25,7 @@
           "name": "HTML 5"
         },
         {
-          "class": "devicon-css3-plain",
+          "class": "devicon-tailwindcss-plain",
           "name": "CSS"
         },
         {
@@ -49,7 +49,7 @@
           "name": "HTML 5"
         },
         {
-          "class": "devicon-css3-plain",
+          "class": "devicon-tailwindcss-plain",
           "name": "CSS"
         },
         {
@@ -172,37 +172,67 @@
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
+      "company": "General Assembly",
+      "title": "Bootcamp: Full-Stack Developer",
+      "years": "02.2022 - 05-2022",
       "mainTech": [
-        "Angular 8/9/10"
+        ""
       ],
       "technologies": [
         "REST API",
-        "RxJS",
         "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
+        "MongoDB",
+        "Express",
+        "LiquidJS",
+        "React",
+        "NodeJS",
+        "Django",
+        "Python",
+        "PostgreSQL",
+        "Postman",
+        "BootStrap"
       ]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
+      "company": "CHG Health",
+      "title": "Provider/Client Rep",
+      "years": "02.2020 - 11.2021",
       "mainTech": [
-        "Angular 7/8"
+        ""
       ],
       "technologies": [
-        "RxJS",
-        "Django",
-        "PHP",
-        "JavaScript",
-        "DHTMLX Gantt"
+        "communication",
+        "teamwork",
+        "marketing",
+        "sales"
+      ]
+    },
+    {
+      "company": "Profile by Sanford Health",
+      "title": "Store Operations Manager",
+      "years": "11.2017 - 02.2020",
+      "mainTech": [
+        ""
+      ],
+      "technologies": [
+        "leadership",
+        "team development",
+        "communication",
+        "KPI tracking"
+      ]
+    },
+    {
+      "company": "Performance Training, Inc",
+      "title": "Program Manager/Personal Trainer",
+      "years": "05.2015 - 11.2017",
+      "mainTech": [
+        ""
+      ],
+      "technologies": [
+        "program development",
+        "data management",
+        "marketing",
+        "assessment"
       ]
     }
   ]
