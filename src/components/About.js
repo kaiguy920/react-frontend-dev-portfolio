@@ -4,6 +4,7 @@ import javaScriptIcon from "@iconify/icons-logos/javascript";
 import reactIcon from "@iconify/icons-logos/react";
 import pythonIcon from "@iconify/icons-logos/python";
 
+
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
@@ -18,7 +19,7 @@ class About extends Component {
     return (
       <section id="about">
         <div className="col-md-12">
-          <h1 style={{ color: "black" }}>
+          <h1 className="section-title" style={{ color: "black" }}>
             <span>{sectionName}</span>
           </h1>
           <div className="row center mx-auto mb-5">
@@ -42,6 +43,8 @@ class About extends Component {
                     icon={pythonIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
+                  <br />
+
                 </span>
               </div>
             </div>
@@ -50,7 +53,7 @@ class About extends Component {
               <div className="col-md-10">
                 <div className="card">
                   <div
-                    className="card-body font-trebuchet text-justify ml-3 mr-3"
+                    className="card-body font-trebuchet text-justify ml-3 mr-3 aboutCard"
                     style={{
                       height: "auto",
                       fontSize: "132%",
@@ -61,14 +64,14 @@ class About extends Component {
                     <span className="wave">{hello} </span>
                     <br />
                     <br />
-                    {about}
+                    <span className="wave">{about}</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section >
     );
   }
 }

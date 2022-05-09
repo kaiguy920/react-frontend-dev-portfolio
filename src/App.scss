@@ -15,6 +15,9 @@ html {
 	justify-content: center;
 }
 
+.aboutCard {
+	border: 4px solid black;
+}
 .title-container {
 	height: 50px;
 }
@@ -27,11 +30,12 @@ html {
 .header-icon {
 	height: 150px;
 	width: 150px;
+	color: #4e2260;
 }
 
 header {
 	position: relative;
-	height: 520px;
+	height: 450px;
 	min-height: 450px;
 	width: 100%;
 	background-size: cover;
@@ -50,6 +54,7 @@ header {
 .language-icon {
 	font-size: 50px;
 	cursor: pointer;
+	opacity: 0;
 }
 
 .project-date {
@@ -198,6 +203,7 @@ header h1 {
 
 .wave {
 	font-size: 160%;
+	font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .font-trebuchet {
@@ -222,6 +228,11 @@ header h1 {
 	background: #e0bdef;
 }
 
+.resumeLink {
+font-size: 20px;
+color:#4e2260
+}
+
 .experience-icon {
 	font-size: 300%;
 	margin-top: 25%;
@@ -237,6 +248,11 @@ header h1 {
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.mb-0 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 60px;
 }
 
 .experience-badge {
@@ -387,12 +403,14 @@ header h1 {
 .section-title {
 	padding-top: 5%;
 	padding-bottom: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: #fff;
 	text-align: center;
 }
+
 
 .skill-icon {
 	font-size: 180%;
