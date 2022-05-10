@@ -20,7 +20,7 @@
         "images/portfolio/fit/p3.jpg",
         "images/portfolio/fit/p4.jpg"
       ],
-      "url": "https://github.com",
+      "url": "https://check-my-fit.herokuapp.com/",
       "technologies": [
         {
           "class": "devicon-mongodb-plain",
@@ -50,7 +50,7 @@
         "images/portfolio/ghostbustr/p3.jpg",
         "images/portfolio/ghostbustr/p4.jpg"
       ],
-      "url": "https://github.com",
+      "url": "https://go-ghostbustr-app.herokuapp.com/",
       "technologies": [
         {
           "class": "devicon-mongodb-plain",
@@ -81,7 +81,7 @@
         "images/portfolio/dragball/p4.jpg",
         "images/portfolio/dragball/p5.jpg"
       ],
-      "url": "https://github.com",
+      "url": "https://fantasydragball.herokuapp.com/dragball",
       "technologies": [
         {
           "class": "devicon-nodejs-plain",
@@ -98,54 +98,6 @@
       ]
     },
     {
-      "title": "Tic-Tac-Toe",
-      "startDate": "2022",
-      "description": "Tic-Tac-Toe was my first solo project that was created through HTML, CSS, and javaScript. Establishing all of the correct logics for a 'draw' or a 'win' and manipulating the displays was tough, but rewarding! ",
-      "images": [
-        "images/portfolio/ttt/p2.jpg",
-        "images/portfolio/ttt/p1.jpg"
-      ],
-      "url": "",
-      "technologies": [
-        {
-          "class": "devicon-html5-plain",
-          "name": "HTML 5"
-        },
-        {
-          "class": "devicon-tailwindcss-plain",
-          "name": "CSS"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "javaScript"
-        }
-      ]
-    },
-    {
-      "title": "What the Truck?",
-      "startDate": "2022",
-      "description": "This project replicates the classic board game 'Traffic Jam'. The car pieces are rendered to the playing board on a CSS grid and manipulated through drag and drop methods. I really enjoyed the complexity of this DOM manipulation project.",
-      "images": [
-        "images/portfolio/truck/p1.jpg",
-        "images/portfolio/truck/p2.jpg"
-      ],
-      "url": "https://github.com",
-      "technologies": [
-        {
-          "class": "devicon-html5-plain",
-          "name": "HTML 5"
-        },
-        {
-          "class": "devicon-tailwindcss-plain",
-          "name": "CSS"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "javaScript"
-        }
-      ]
-    },
-    {
       "title": "Cat Collector",
       "startDate": "2022",
       "description": "This is a full CRUD, user authenticated, multiple document app made with Python & Django. Although simple in design, it represents a quick translation of a new language to a high and multi-functioning app!",
@@ -153,7 +105,7 @@
         "images/portfolio/catcollector/p1.jpg",
         "images/portfolio/catcollector/p2.jpg"
       ],
-      "url": "https://github.com",
+      "url": "https://github.com/kaiguy920/catcollector",
       "technologies": [
         {
           "class": "devicon-python-plain",
@@ -166,6 +118,54 @@
         {
           "class": "devicon-django-plain",
           "name": "Django"
+        }
+      ]
+    },
+    {
+      "title": "What the Truck?",
+      "startDate": "2022",
+      "description": "This project replicates the classic board game 'Traffic Jam'. The car pieces are rendered to the playing board on a CSS grid and manipulated through drag and drop methods. I really enjoyed the complexity of this DOM manipulation project.",
+      "images": [
+        "images/portfolio/truck/p1.jpg",
+        "images/portfolio/truck/p2.jpg"
+      ],
+      "url": "https://github.com/kaiguy920/Game-Project",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML 5"
+        },
+        {
+          "class": "devicon-tailwindcss-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "javaScript"
+        }
+      ]
+    },
+    {
+      "title": "Tic-Tac-Toe",
+      "startDate": "2022",
+      "description": "Tic-Tac-Toe was my first solo project that was created through HTML, CSS, and javaScript. Establishing all of the correct logics for a 'draw' or a 'win' and manipulating the displays was tough, but rewarding! ",
+      "images": [
+        "images/portfolio/ttt/p2.jpg",
+        "images/portfolio/ttt/p1.jpg"
+      ],
+      "url": "https://github.com/kaiguy920/Tic-Tac-Toe",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML 5"
+        },
+        {
+          "class": "devicon-tailwindcss-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "javaScript"
         }
       ]
     }

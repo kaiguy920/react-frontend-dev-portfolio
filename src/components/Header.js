@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
+import Button from 'react-bootstrap/Button'
 
 
 class Header extends Component {
@@ -37,17 +38,32 @@ class Header extends Component {
 
     return (
       <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
+
+        <div className="resumeLink">
+          <div className="resumebtn">
+            <a className="btn btn-dark" href='Smith_Kai_Resume.pdf' download>Download Resume</a>
+          </div>
+          <div className="emailbtn">
+            <button className="btn btn-dark" onClick={() => window.location = 'mailto:smithkai920@gmail.com'}>Contact Me</button>
+          </div>
+        </div>
+
         <div className="row aligner" style={{ height: '100%' }}>
           <div className="col-md-12">
             <div>
               <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
-              <br />
+
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />
               </h1>
-              <div className="resumeLink">
-                <a href='Smith_Kai_Resume.pdf' download>Click to download Resume</a>
-              </div>
+
+              {/* <div className="resumeLink">
+
+                <a className="btn btn-dark" href='Smith_Kai_Resume.pdf' download>Click to download Resume</a>
+
+                <button className="btn btn-dark" onClick={() => window.location = 'mailto:smithkai920@gmail.com'}>Contact Me</button>
+              </div> */}
+
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
               </div>
