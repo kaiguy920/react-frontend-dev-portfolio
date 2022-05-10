@@ -27,19 +27,23 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
+                    className="profPic"
                     height="250px"
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
                   <Icon
+                    className="profAva"
                     icon={javaScriptIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
+                    className="profAva"
                     icon={reactIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
+                    className="profAva"
                     icon={pythonIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />

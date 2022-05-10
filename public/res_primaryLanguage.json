@@ -11,6 +11,93 @@
   },
   "projects": [
     {
+      "title": "Check My Fit",
+      "startDate": "2022",
+      "description": "Check My Fit is a social media site where a user can see an index, or feed, of uploaded outfits, rate them as 'hot' or 'not' & leave a comment, as well as upload their own outfits. Views can be indexed by the user or searched by the # associated with looks. This was a great, fun way to show of many documents and subdocs in a many-to-many relationship. I also chose to work in a pairing on this, which was a great way to communicate through a project and replicate a team dynamic on a another project.",
+      "images": [
+        "images/portfolio/fit/p1.jpg",
+        "images/portfolio/fit/p2.jpg",
+        "images/portfolio/fit/p3.jpg",
+        "images/portfolio/fit/p4.jpg"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        }
+      ]
+    },
+    {
+      "title": "GhostBustr",
+      "startDate": "2022",
+      "description": "Working in a team of 3 other classmates, we created an app that indexed a list of haunted destinations across the US. Enthusiats can use this app to track which ones they've been to, add additional sites, and journal their experiences. This was my first full stack application, as well as working in a team setting while developing. I took on the role as primary organizer/communicator to ensure we divised out tasks evenly and punctually. I really enjoyed working the back end routes and working in a team dynamic. ",
+      "images": [
+        "images/portfolio/ghostbustr/p1.jpg",
+        "images/portfolio/ghostbustr/p2.jpg",
+        "images/portfolio/ghostbustr/p3.jpg",
+        "images/portfolio/ghostbustr/p4.jpg"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        }
+      ]
+    },
+    {
+      "title": "Fantasy Dragball",
+      "startDate": "2022",
+      "description": "This was a personal favorite project for me; where I could apply my knowledge to a passion of mine, which is drag. Data about queens was rendered through an API. Further data was stored in a local DB where a logged in user could create their own favorites list and draft a team of queens. I'd love to create a high-scale, live-updated version of this!",
+      "images": [
+        "images/portfolio/dragball/p1.jpg",
+        "images/portfolio/dragball/p2.jpg",
+        "images/portfolio/dragball/p3.jpg",
+        "images/portfolio/dragball/p4.jpg",
+        "images/portfolio/dragball/p5.jpg"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        }
+      ]
+    },
+    {
       "title": "Tic-Tac-Toe",
       "startDate": "2022",
       "description": "Tic-Tac-Toe was my first solo project that was created through HTML, CSS, and javaScript. Establishing all of the correct logics for a 'draw' or a 'win' and manipulating the displays was tough, but rewarding! ",
@@ -59,63 +146,6 @@
       ]
     },
     {
-      "title": "Fantasy Dragball",
-      "startDate": "2022",
-      "description": "This was a personal favorite project for me; where I could apply my knowledge to a passion of mine, which is drag. Data about queens was rendered through an API. Further data was stored in a local DB where a logged in user could create their own favorites list and draft a team of queens. I'd love to create a high-scale, live-updated version of this!",
-      "images": [
-        "images/portfolio/dragball/p1.jpg",
-        "images/portfolio/dragball/p2.jpg",
-        "images/portfolio/dragball/p3.jpg",
-        "images/portfolio/dragball/p4.jpg",
-        "images/portfolio/dragball/p5.jpg"
-      ],
-      "url": "https://github.com",
-      "technologies": [
-        {
-          "class": "devicon-nodejs-plain",
-          "name": "NodeJS"
-        },
-        {
-          "class": "devicon-react-plain",
-          "name": "React"
-        },
-        {
-          "class": "devicon-express-original",
-          "name": "Express"
-        }
-      ]
-    },
-    {
-      "title": "GhostBustr",
-      "startDate": "2022",
-      "description": "Working in a team of 3 other classmates, we created an app that indexed a list of haunted destinations across the US. Enthusiats can use this app to track which ones they've been to, add additional sites, and journal their experiences. This was my first full stack application, as well as working in a team setting while developing. I took on the role as primary organizer/communicator to ensure we divised out tasks evenly and punctually. I really enjoyed working the back end routes and working in a team dynamic. ",
-      "images": [
-        "images/portfolio/ghostbustr/p1.jpg",
-        "images/portfolio/ghostbustr/p2.jpg",
-        "images/portfolio/ghostbustr/p3.jpg",
-        "images/portfolio/ghostbustr/p4.jpg"
-      ],
-      "url": "https://github.com",
-      "technologies": [
-        {
-          "class": "devicon-mongodb-plain",
-          "name": "MongoDB"
-        },
-        {
-          "class": "devicon-express-original",
-          "name": "Express"
-        },
-        {
-          "class": "devicon-react-plain",
-          "name": "React"
-        },
-        {
-          "class": "devicon-nodejs-plain",
-          "name": "NodeJS"
-        }
-      ]
-    },
-    {
       "title": "Cat Collector",
       "startDate": "2022",
       "description": "This is a full CRUD, user authenticated, multiple document app made with Python & Django. Although simple in design, it represents a quick translation of a new language to a high and multi-functioning app!",
@@ -136,36 +166,6 @@
         {
           "class": "devicon-django-plain",
           "name": "Django"
-        }
-      ]
-    },
-    {
-      "title": "Check My Fit",
-      "startDate": "2022",
-      "description": "Check My Fit is a social media site where a user can see an index, or feed, of uploaded outfits, rate them as 'hot' or 'not' & leave a comment, as well as upload their own outfits. Views can be indexed by the user or searched by the # associated with looks. This was a great, fun way to show of many documents and subdocs in a many-to-many relationship. I also chose to work in a pairing on this, which was a great way to communicate through a project and replicate a team dynamic on a another project.",
-      "images": [
-        "images/portfolio/fit/p1.jpg",
-        "images/portfolio/fit/p2.jpg",
-        "images/portfolio/fit/p3.jpg",
-        "images/portfolio/fit/p4.jpg"
-      ],
-      "url": "https://github.com",
-      "technologies": [
-        {
-          "class": "devicon-mongodb-plain",
-          "name": "MongoDB"
-        },
-        {
-          "class": "devicon-express-original",
-          "name": "Express"
-        },
-        {
-          "class": "devicon-react-plain",
-          "name": "React"
-        },
-        {
-          "class": "devicon-nodejs-plain",
-          "name": "NodeJS"
         }
       ]
     }
