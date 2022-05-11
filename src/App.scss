@@ -62,7 +62,7 @@ header {
 
 .profPic {
 	height: 350px;
-	width: 400px;
+	width: 600px;
 }
 
 .profAva {
@@ -249,6 +249,16 @@ justify-content: center;
 .resumebtn, .emailbtn {
 	padding: 10px;
 	font-family: 'Permanent Marker';
+}
+
+.btn-dark {
+	height: 50px;
+	width: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+	text-align: center
 }
 
 .experience-icon {

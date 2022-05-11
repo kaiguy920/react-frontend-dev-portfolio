@@ -41,10 +41,10 @@ class Header extends Component {
 
         <div className="resumeLink">
           <div className="resumebtn">
-            <a className="btn btn-dark btn-lg" href='Smith_Kai_Resume.pdf' download>Download Resume</a>
+            <a className="btn btn-dark btn-lg" style={{ fontSize: '20px' }} href='Smith_Kai_Resume.pdf' download>Download Resume</a>
           </div>
           <div className="emailbtn">
-            <button className="btn btn-dark btn-lg" onClick={() => window.location = 'mailto:smithkai920@gmail.com'}>Contact Me</button>
+            <button className="btn btn-dark btn-lg" style={{ fontSize: '20px' }} onClick={() => window.location = 'mailto:smithkai920@gmail.com'}>Contact Me</button>
           </div>
         </div>
 
