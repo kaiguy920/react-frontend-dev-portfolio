@@ -50,7 +50,7 @@ header {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding-top: 150px;
+	// padding-top: 150px;
 	padding-bottom: 0;
 }
 
@@ -107,7 +107,7 @@ header h1 {
 }
 
 .slider-image {
-	border: 5px solid #e0bdef;
+	border: 5px solid black;
 	height: 500px;
 }
 
@@ -242,13 +242,40 @@ header h1 {
 }
 
 .resumeLink {
-display: flex;
-justify-content: center;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	// background: #151513;
+	height: 94px;
+	padding-right: 10px;
 }
 
-.resumebtn, .emailbtn {
+.emailbtn {
 	padding: 10px;
-	font-family: 'Permanent Marker';
+	// font-family: 'Permanent Marker';
+	color:white;
+	font-size: 20px;
+}
+
+.emailbtn:link { 
+	text-decoration: none; 
+}
+
+
+.emailbtn:visited { 
+	text-decoration: none; 
+}
+
+
+.emailbtn:hover { 
+	text-decoration: none; 
+	color: #4e2260;
+	cursor: pointer;
+}
+
+
+.emailbtn:active { 
+	text-decoration: none; 
 }
 
 .btn-dark {
@@ -317,6 +344,7 @@ justify-content: center;
 // background-color: #4e2260;
 padding: 10px;
 font-size: 20px;
+text-decoration: none;
 }
 
 @media only screen and (max-width: 1170px) {

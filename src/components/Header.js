@@ -40,12 +40,9 @@ class Header extends Component {
       <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
 
         <div className="resumeLink">
-          <div className="resumebtn">
-            <a className="btn btn-dark btn-lg" style={{ fontSize: '20px' }} href='Smith_Kai_Resume.pdf' download>Download Resume</a>
-          </div>
-          <div className="emailbtn">
-            <button className="btn btn-dark btn-lg" style={{ fontSize: '20px' }} onClick={() => window.location = 'mailto:smithkai920@gmail.com'}>Contact Me</button>
-          </div>
+          <a className="emailbtn" href='Smith_Kai_Resume.pdf' download>Resume</a>
+          <a className="emailbtn" href='https://www.linkedin.com/in/smithkai920/' >LinkedIn</a>
+          <a className="emailbtn" onClick={() => window.location = 'mailto:smithkai920@gmail.com'}>Contact</a>
         </div>
 
         <div className="row aligner" style={{ height: '100%' }}>
@@ -63,7 +60,7 @@ class Header extends Component {
               <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}
-                offColor="#baaa80"
+                offColor="#4e2260"
                 onColor="#353535"
                 className="react-switch mx-auto"
                 width={90}
