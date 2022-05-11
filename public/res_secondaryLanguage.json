@@ -1,115 +1,238 @@
 {
   "basic_info": {
-    "description_header": "Cześć",
-    "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+    "description_header": "Hi!",
+    "description": "I’ve been working within the health and wellness industry for 7+ years, wearing many hats that have included leadership roles, marketing strategy, sales, branding, and more. I have a tract record of being a key contributor in a team setting and exceeding expectations. Given my background and skill sets, I am pivoting my career focus to software engineering, to leverage my career path in an industry that has proven time and again its value in being an essential component to business and society. Outside of my time enjoying learning more about my new trade, I prioritize my health through staying active at the gym or outdoors. I have arguably the most adorable dog and cat pair as well!",
     "section_name": {
-      "about": "O mnie",
-      "projects": "Projekty",
-      "skills": "Umiejętności",
-      "experience": "Doświadczenie"
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
     }
   },
   "projects": [
     {
-      "title": "Animal Shelter",
-      "startDate": "2020",
-      "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+      "title": "Check My Fit",
+      "startDate": "2022",
+      "description": "Check My Fit is a social media site where a user can see an index, or feed, of uploaded outfits, rate them as 'hot' or 'not' & leave a comment, as well as upload their own outfits. Views can be indexed by the user or searched by the # associated with looks. This was a great, fun way to show of many documents and subdocs in a many-to-many relationship. I also chose to work in a pairing on this, which was a great way to communicate through a project and replicate a team dynamic on a another project.",
       "images": [
-        "images/portfolio/animal-shelter/p1.jpg",
-        "images/portfolio/animal-shelter/p2.jpg"
+        "images/portfolio/fit/p1.jpg",
+        "images/portfolio/fit/p2.jpg",
+        "images/portfolio/fit/p3.jpg",
+        "images/portfolio/fit/p4.jpg"
       ],
-      "url": "",
+      "url": "https://check-my-fit.herokuapp.com/",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-express-original",
+          "name": "Express"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
-        }
-      ]
-    },
-    {
-      "title": "Photography",
-      "startDate": "2018",
-      "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-      "images": [
-        "images/portfolio/photography/p1.jpg",
-        "images/portfolio/photography/p2.jpg"
-      ],
-      "url": "https://github.com",
-      "technologies": [
-        {
-          "class": "-original",
+          "class": "devicon-react-plain",
           "name": "React"
         },
         {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
         }
       ]
     },
     {
-      "title": "3D Object Viewer",
-      "startDate": "2015",
-      "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+      "title": "GhostBustr",
+      "startDate": "2022",
+      "description": "Working in a team of 3 other classmates, we created an app that indexed a list of haunted destinations across the US. Enthusiats can use this app to track which ones they've been to, add additional sites, and journal their experiences. This was my first full stack application, as well as working in a team setting while developing. I took on the role as primary organizer/communicator to ensure we divised out tasks evenly and punctually. I really enjoyed working the back end routes and working in a team dynamic. ",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "images/portfolio/ghostbustr/p1.jpg",
+        "images/portfolio/ghostbustr/p2.jpg",
+        "images/portfolio/ghostbustr/p3.jpg",
+        "images/portfolio/ghostbustr/p4.jpg"
       ],
-      "url": "https://github.com",
+      "url": "https://go-ghostbustr-app.herokuapp.com/",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-express-original",
+          "name": "Express"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        }
+      ]
+    },
+    {
+      "title": "Fantasy Dragball",
+      "startDate": "2022",
+      "description": "This was a personal favorite project for me; where I could apply my knowledge to a passion of mine, which is drag. Data about queens was rendered through an API. Further data was stored in a local DB where a logged in user could create their own favorites list and draft a team of queens. I'd love to create a high-scale, live-updated version of this!",
+      "images": [
+        "images/portfolio/dragball/p1.jpg",
+        "images/portfolio/dragball/p2.jpg",
+        "images/portfolio/dragball/p3.jpg",
+        "images/portfolio/dragball/p4.jpg",
+        "images/portfolio/dragball/p5.jpg"
+      ],
+      "url": "https://fantasydragball.herokuapp.com/dragball",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        }
+      ]
+    },
+    {
+      "title": "Cat Collector",
+      "startDate": "2022",
+      "description": "This is a full CRUD, user authenticated, multiple document app made with Python & Django. Although simple in design, it represents a quick translation of a new language to a high and multi-functioning app!",
+      "images": [
+        "images/portfolio/catcollector/p1.jpg",
+        "images/portfolio/catcollector/p2.jpg"
+      ],
+      "url": "https://github.com/kaiguy920/catcollector",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSql"
+        },
+        {
+          "class": "devicon-django-plain",
+          "name": "Django"
+        }
+      ]
+    },
+    {
+      "title": "What the Truck?",
+      "startDate": "2022",
+      "description": "This project replicates the classic board game 'Traffic Jam'. The car pieces are rendered to the playing board on a CSS grid and manipulated through drag and drop methods. I really enjoyed the complexity of this DOM manipulation project.",
+      "images": [
+        "images/portfolio/truck/p1.jpg",
+        "images/portfolio/truck/p2.jpg"
+      ],
+      "url": "https://github.com/kaiguy920/Game-Project",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML 5"
+        },
+        {
+          "class": "devicon-tailwindcss-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "javaScript"
+        }
+      ]
+    },
+    {
+      "title": "Tic-Tac-Toe",
+      "startDate": "2022",
+      "description": "Tic-Tac-Toe was my first solo project that was created through HTML, CSS, and javaScript. Establishing all of the correct logics for a 'draw' or a 'win' and manipulating the displays was tough, but rewarding! ",
+      "images": [
+        "images/portfolio/ttt/p2.jpg",
+        "images/portfolio/ttt/p1.jpg"
+      ],
+      "url": "https://github.com/kaiguy920/Tic-Tac-Toe",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML 5"
+        },
+        {
+          "class": "devicon-tailwindcss-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "javaScript"
         }
       ]
     }
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - obecnie",
+      "company": "General Assembly",
+      "title": "Bootcamp: Full-Stack Developer",
+      "years": "02.2022 - 05-2022",
       "mainTech": [
-        "Angular 8/9/10"
+        ""
       ],
       "technologies": [
         "REST API",
-        "RxJS",
         "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        "Angular Material"
+        "MongoDB",
+        "Express",
+        "LiquidJS",
+        "React",
+        "NodeJS",
+        "Django",
+        "Python",
+        "PostgreSQL",
+        "Postman",
+        "BootStrap"
       ]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Stażystka",
-      "years": "01.2018 - 09.2019",
+      "company": "CHG Health",
+      "title": "Provider/Client Rep",
+      "years": "02.2020 - 11.2021",
       "mainTech": [
-        "Angular 7/8"
+        ""
       ],
       "technologies": [
-        "REST API",
-        "RxJS",
-        "Swagger",
-        "JavaScript",
-        "DHTMLX Gantt"
+        "communication",
+        "teamwork",
+        "marketing",
+        "sales"
+      ]
+    },
+    {
+      "company": "Profile by Sanford Health",
+      "title": "Store Operations Manager",
+      "years": "11.2017 - 02.2020",
+      "mainTech": [
+        ""
+      ],
+      "technologies": [
+        "leadership",
+        "team development",
+        "communication",
+        "KPI tracking"
+      ]
+    },
+    {
+      "company": "Performance Training, Inc",
+      "title": "Program Manager/Personal Trainer",
+      "years": "05.2015 - 11.2017",
+      "mainTech": [
+        ""
+      ],
+      "technologies": [
+        "program development",
+        "data management",
+        "marketing",
+        "assessment"
       ]
     }
   ]

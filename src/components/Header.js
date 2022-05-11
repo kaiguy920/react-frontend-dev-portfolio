@@ -41,10 +41,10 @@ class Header extends Component {
 
         <div className="resumeLink">
           <div className="resumebtn">
-            <a className="btn btn-dark" href='Smith_Kai_Resume.pdf' download>Download Resume</a>
+            <a className="btn btn-dark btn-lg" href='Smith_Kai_Resume.pdf' download>Download Resume</a>
           </div>
           <div className="emailbtn">
-            <button className="btn btn-dark" onClick={() => window.location = 'mailto:smithkai920@gmail.com'}>Contact Me</button>
+            <button className="btn btn-dark btn-lg" onClick={() => window.location = 'mailto:smithkai920@gmail.com'}>Contact Me</button>
           </div>
         </div>
 
@@ -56,13 +56,6 @@ class Header extends Component {
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />
               </h1>
-
-              {/* <div className="resumeLink">
-
-                <a className="btn btn-dark" href='Smith_Kai_Resume.pdf' download>Click to download Resume</a>
-
-                <button className="btn btn-dark" onClick={() => window.location = 'mailto:smithkai920@gmail.com'}>Contact Me</button>
-              </div> */}
 
               <div className="title-container">
                 <HeaderTitleTypeAnimation />

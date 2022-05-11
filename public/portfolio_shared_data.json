@@ -17,11 +17,6 @@
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/smithkai920/",
         "class": "fab fa-linkedin"
-      },
-      {
-        "name": "instagram",
-        "url": "https://www.instagram.com/well_health_yes/",
-        "class": "fab fa-instagram"
       }
     ],
     "image": "myProfile.jpg"

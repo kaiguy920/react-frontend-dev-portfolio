@@ -19,12 +19,13 @@ class About extends Component {
     return (
       <section id="about">
         <div className="col-md-12">
-          <h1 className="section-title" style={{ color: "black" }}>
+          <h1 className="section-title" style={{ fontFamily: "Permanent Marker", fontSize: 40, color: 'black' }}>
             <span>{sectionName}</span>
           </h1>
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
               <div className="polaroid">
+                {/* <div style={{ width: "250px", }}> */}
                 <span style={{ cursor: "auto" }}>
                   <img
                     className="profPic"
@@ -57,12 +58,21 @@ class About extends Component {
               <div className="col-md-10">
                 <div className="card">
                   <div
-                    className="card-body font-trebuchet text-justify ml-3 mr-3 aboutCard"
+                    aboutCard
                     style={{
                       height: "auto",
                       fontSize: "132%",
                       lineHeight: "200%",
+                      padding: "20px 40px",
                     }}
+                  // className="card-body font-trebuchet text-justify ml-3 mr-3 aboutCard"
+                  // style={{
+                  //   height: "auto",
+                  //   fontSize: "132%",
+                  //   lineHeight: "200%",
+                  //   padding: "80",
+                  //   margin: "60"
+                  // }}
                   >
                     <br />
                     <span className="wave">{hello} </span>
