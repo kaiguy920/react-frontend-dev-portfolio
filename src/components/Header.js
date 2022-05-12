@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
-import Button from 'react-bootstrap/Button'
 
 
 class Header extends Component {
