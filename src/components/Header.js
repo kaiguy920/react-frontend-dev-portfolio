@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
+import Button from 'react-bootstrap/Button'
 
 
 class Header extends Component {
@@ -41,7 +42,7 @@ class Header extends Component {
         <div className="resumeLink">
           <a className="emailbtn" href='Smith_Kai_Resume.pdf' download>Resume</a>
           <a className="emailbtn" href='https://www.linkedin.com/in/smithkai920/' >LinkedIn</a>
-          <a className="emailbtn" onClick={() => window.location = 'mailto:smithkai920@gmail.com'}>Contact</a>
+          <Button className="emailbtn" onClick={() => window.location = 'mailto:smithkai920@gmail.com'}>Contact</Button>
         </div>
 
         <div className="row aligner" style={{ height: '100%' }}>
