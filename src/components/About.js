@@ -18,7 +18,7 @@ class About extends Component {
 
     return (
       <section id="about">
-        <div className="col-md-12">
+        <div className="col-md-12" style={{ borderTop: "10px solid black", borderBottom: "10px solid black" }}>
           <h1 className="section-title" style={{ fontFamily: "Permanent Marker", fontSize: 40, color: 'black' }}>
             <span>{sectionName}</span>
           </h1>
