@@ -172,6 +172,21 @@
   ],
   "experience": [
     {
+      "company": "Capco",
+      "title": "Associate QA Automation Engineer",
+      "years": "09.2022 - present",
+      "mainTech": [
+        ""
+      ],
+      "technologies": [
+        "Appium",
+        "JavaScript",
+        "Flutter",
+        "Android Studios",
+        "Xcode"
+      ]
+    },
+    {
       "company": "General Assembly",
       "title": "Bootcamp: Full-Stack Developer",
       "years": "02.2022 - 05-2022",
